@@ -1,0 +1,10 @@
+<button (click)="switch('role')" [ngClass]="state=='role'?'active':'default'">Role</button>
+<button (click)="switch('designation')" [ngClass]="state=='designation'? 'active':'default'">designation</button>
+<div *ngIf="state=='role'">
+    <app-role></app-role>
+</div>
+
+<div *ngIf="state=='designation'">
+    <app-designation></app-designation>
+
+</div>
