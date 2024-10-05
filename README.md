@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.9.
@@ -25,3 +26,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+Angular 18
+
+
+
+-http client
+
+
+-services
+
+
+-directives(structural-ngif,ngfor, attribute-ngclass,ngstyle)
+
+
+-databinding(interpolation,event binding(onclick etc),two way binding,property binding)
+
+
+-api call(through services , through noraml get )
+
+
+-dependency injection
+
+
+-creating components, services
+
+
+-life cycle hooks(oninit)
+>>>>>>> 4dfef163d9b7cf50d6fc9c9dc1d2ef54e18ccb49

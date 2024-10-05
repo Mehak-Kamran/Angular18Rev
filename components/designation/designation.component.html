@@ -1,0 +1,23 @@
+<p>designation works!</p>
+<!-- //INTERPOLATION -->
+<p>{{name}}</p>
+<p>{{oldage}}</p>
+
+<!-- //PROPERTY BINDING -->
+<div>
+    
+        <input [type]="ty" [value]="val" />
+        
+
+</div>
+
+<!-- //TWO WAY BINDING -->
+ <div>
+    
+        <input  [(ngModel)]="oldage" />
+    
+ </div>
+
+ <!-- event binding -->
+  <button (click)="displayms()">Submit</button>
+  <button (click)="displaymsg('girl360')"> add</button>
