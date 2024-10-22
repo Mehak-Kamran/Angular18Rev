@@ -1,0 +1,27 @@
+
+<p>user works!</p>
+<p>{{name}}</p>
+<p>{{country}}</p>
+<div>
+    <input type="text" [value]=ty/>
+</div>
+
+<div>
+    <input type="text" [(ngModel)]=country/>
+</div>
+
+<div>
+    <button (click)="givealert()" > Submit</button>
+</div>
+
+<button (click)="decision('open')" [ngClass]="state=='open'? 'active':'default'">open</button>
+<button (click)="decision('close')" [ngClass]="state=='close'?'active':'default'">close</button>
+
+<div *ngIf="state=='open'">
+    open
+</div>
+
+<div *ngIf="state=='close'">
+    close
+</div>
+

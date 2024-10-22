@@ -11,7 +11,7 @@ export class MasterService {
   http=inject(HttpClient);
 
 
-//create api function 
+//2 create api function 
 getdesig():Observable<any>{
    
  return this.http.get ("https://dummyjson.com/users")

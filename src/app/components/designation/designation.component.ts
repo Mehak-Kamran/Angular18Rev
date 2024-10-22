@@ -12,10 +12,11 @@ import { CommonModule } from '@angular/common';
   styleUrl: './designation.component.css'
 })
 export class DesignationComponent implements OnInit {
+  // 4 decl var
   dlist:IRole[]=[]
- //inject master service
+ //3 inject master service
   masterService=inject(MasterService)
-
+// 5 
   ngOnInit(): void {
     this.masterService.getdesig().subscribe((res:any)=>{
       this.dlist=res.users
